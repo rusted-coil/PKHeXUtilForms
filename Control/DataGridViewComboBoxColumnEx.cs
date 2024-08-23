@@ -1,6 +1,6 @@
-﻿namespace PKHeXUtilLib.Control
+﻿namespace PKHeXUtilForms.Control
 {
-    internal class DataGridViewComboBoxColumnEx : DataGridViewComboBoxColumn
+    public class DataGridViewComboBoxColumnEx : DataGridViewComboBoxColumn
     {
         public DataGridViewComboBoxColumnEx() : base() { }
 

@@ -1,6 +1,6 @@
-﻿namespace PKHeXUtilLib.Control
+﻿namespace PKHeXUtilForms.Control
 {
-    internal class DataGridViewTextBoxColumnEx : DataGridViewTextBoxColumn
+    public class DataGridViewTextBoxColumnEx : DataGridViewTextBoxColumn
     {
         public DataGridViewTextBoxColumnEx() { }    
 

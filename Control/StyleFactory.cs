@@ -1,6 +1,6 @@
-﻿namespace PKHeXUtilLib.Control
+﻿namespace PKHeXUtilForms.Control
 {
-    internal static class StyleFactory
+    public static class StyleFactory
     {
         static DataGridViewCellStyle s_TextBoxDefaultStyle = new DataGridViewCellStyle
         {

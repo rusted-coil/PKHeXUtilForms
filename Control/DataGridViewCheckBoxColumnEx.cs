@@ -1,6 +1,6 @@
-﻿namespace PKHeXUtilLib.Control
+﻿namespace PKHeXUtilForms.Control
 {
-    internal class DataGridViewCheckBoxColumnEx : DataGridViewCheckBoxColumn
+    public class DataGridViewCheckBoxColumnEx : DataGridViewCheckBoxColumn
     {
         public DataGridViewCheckBoxColumnEx() : base() { }
 
