@@ -14,12 +14,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pokemon\NameParser\Internal\" />
     <Folder Include="Control\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\FormRx\FormRx.csproj" />
+    <ProjectReference Include="..\PKHeXUtilLib\PKHeXUtilLib.csproj" />
   </ItemGroup>
 
 </Project>

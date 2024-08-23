@@ -2,7 +2,7 @@
 using System.Reactive;
 using System.Reactive.Subjects;
 
-namespace PKHeXUtilLib.Pokemon.NameParser.View.Internal
+namespace PKHeXUtilForms.Pokemon.NameParser.Internal
 {
     internal partial class NameParserEditorForm : Form, INameParserEditorForm
     {
@@ -44,6 +44,11 @@ namespace PKHeXUtilLib.Pokemon.NameParser.View.Internal
         {
             m_FormClosingEvent.OnNext(default);
             m_FormClosingEvent.OnCompleted();
+        }
+
+        public void SetDataSource(List<NameParserEditorEntry> dataSource)
+        {
+            NameParserDataBindingSource.DataSource = dataSource;
         }
     }
 }
