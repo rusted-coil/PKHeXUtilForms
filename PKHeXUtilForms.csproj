@@ -4,6 +4,7 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +14,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pokemon\NameParser\" />
+    <Folder Include="Pokemon\NameParser\Internal\" />
+    <Folder Include="Control\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FormRx\FormRx.csproj" />
   </ItemGroup>
 
 </Project>
