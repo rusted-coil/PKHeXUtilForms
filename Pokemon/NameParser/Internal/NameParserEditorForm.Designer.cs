@@ -1,4 +1,4 @@
-﻿namespace PKHeXUtilLib.Pokemon.NameParser.View.Internal
+﻿namespace PKHeXUtilForms.Pokemon.NameParser.Internal
 {
 	partial class NameParserEditorForm
 	{
@@ -37,11 +37,12 @@
             // 
             // NameParserDataGridView
             // 
+            NameParserDataGridView.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             NameParserDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             NameParserDataGridView.Location = new Point(12, 12);
             NameParserDataGridView.MultiSelect = false;
             NameParserDataGridView.Name = "NameParserDataGridView";
-            NameParserDataGridView.Size = new Size(776, 426);
+            NameParserDataGridView.Size = new Size(920, 537);
             NameParserDataGridView.TabIndex = 1;
             NameParserDataGridView.CellValueChanged += NameParserDataGridView_CellValueChanged;
             // 
@@ -49,7 +50,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(944, 561);
             Controls.Add(NameParserDataGridView);
             Name = "NameParserEditorForm";
             Text = "NameParserEditorForm";
